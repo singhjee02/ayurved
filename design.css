@@ -1,0 +1,81 @@
+    .navbar {
+        margin: 3rem;
+    }
+    
+    .nav-item {
+        text-align: centre;
+    }
+    
+    .Heading {
+        margin-left: 3rem;
+    }
+    
+    #middle {
+        padding: 4rem;
+    }
+    
+    .body {
+        border-radius: 90px;
+        width: 30%;
+        height: 20rem;
+    }
+    
+    .mobility {
+        height: 20rem;
+        width: 30%;
+        border-radius: 100px;
+    }
+    
+    .running {
+        border-radius: 100px;
+    }
+    
+    .body:hover {
+        -ms-transform: scale(2);
+        /* IE 9 */
+        -webkit-transform: scale(2);
+        /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+    
+    .mobility:hover {
+        -ms-transform: scale(2);
+        /* IE 9 */
+        -webkit-transform: scale(2);
+        /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+    
+    .running:hover {
+        -ms-transform: scale(2);
+        /* IE 9 */
+        -webkit-transform: scale(2);
+        /* Safari 3-8 */
+        transform: scale(1.5);
+    }
+    
+    #middle {
+        position: relative;
+        text-align: center;
+    }
+    
+    .top-left {
+        position: absolute;
+        top: 6rem;
+        left: 9rem;
+        color: aliceblue;
+    }
+    
+    .top-right {
+        position: absolute;
+        top: 6rem;
+        right: 30rem;
+        color: aliceblue;
+    }
+    
+    .centered {
+        position: absolute;
+        top: 6rem;
+        left: 35rem;
+        color: aliceblue;
+    }
